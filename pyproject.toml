@@ -1,0 +1,28 @@
+[tool.mypy]
+mypy_path = "src"
+namespace_packages = "true"
+
+[tool.poetry]
+name = "sedgewick-algorithms-python"
+version = "0.1.0"
+description = "Python-based notes and solutions to Algorithms 4th Edition by Robert Sedgewick and Kevin Wayne."
+authors = ["Charles Swartz <charles.w.swartz.vi@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+numpy = "^1.20.3"
+matplotlib = "^3.4.2"
+
+[tool.poetry.dev-dependencies]
+mypy = "^0.902"
+flake8 = "^3.9.2"
+black = "^21.6b0"
+pytest = "^6.2.4"
+pytest-cov = "^2.12.1"
+pre-commit = "^2.13.0"
+rope = "^0.19.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
