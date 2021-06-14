@@ -24,7 +24,7 @@ repos:
         (.*)/setup.py
       )$
     entry: poetry run mypy
-    args: ["--ignore-missing-imports", "--namespace-packages", "--explicit-package-bases"]
+    args: ["--ignore-missing-imports"]
     language: system
     types: [python]
 

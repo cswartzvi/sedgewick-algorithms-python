@@ -1,7 +1,3 @@
-[tool.mypy]
-mypy_path = "src"
-namespace_packages = "true"
-
 [tool.poetry]
 name = "sedgewick-algorithms-python"
 version = "0.1.0"
